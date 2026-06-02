@@ -1,0 +1,34 @@
+{
+    "app_name": "blender trucho",
+    "build": {
+        "appId": "com.miblendertrucho.app",
+        "files": [
+            "**/*"
+        ],
+        "win": {
+            "target": "dir"
+        }
+    },
+    "description": "me costo hacerlo",
+    "devDependencies": {
+        "electron": "^42.3.0",
+        "electron-builder": "^24.13.3"
+    },
+    "main": "main.js",
+    "name": "mi-blender-trucho",
+    "scripts": {
+        "build": "electron-builder",
+        "start": "electron ."
+    },
+    "version": "1.0.0",
+    "webkit": {},
+    "window": {
+        "frame": true,
+        "id": "la-app",
+        "resizable": true,
+        "show": true,
+        "show_in_taskbar": true,
+        "title": "la-app",
+        "visible": true
+    }
+}
